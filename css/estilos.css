@@ -13,15 +13,12 @@
     border-top: #632931 2px solid;
 }
 
+.navbar-brand{
+    text-align: center;
+}
 
 .navbar-brand img{
     height:150px;
-    margin-left: 150px;
-
-}
-
-.navbar-collapse{
-    margin-left: 40%;
 }
 #nav-link{
     margin: 5px;
