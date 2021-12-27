@@ -66,6 +66,10 @@
     
 }
 
+.articulo iframe{
+    padding: 10px;
+}
+
 .n-right{
     display: flex;
     justify-content: space-around;
