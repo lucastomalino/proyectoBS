@@ -107,3 +107,56 @@ padding: 10px;
     transform: scale(1.20);
     transition: all 0.7s;
 }
+
+/* sobre mi */
+.sobremi_titulo{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #632931;
+    padding: 5px;
+    background-color: #fbebe3;
+    margin: 0;
+}
+
+.sobremi_articulo{
+    background-color: #fbebe3;
+}
+
+.sobremi_articulo p{
+    color: #632931;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sobremi_articulo .fotoperfil{
+    text-align: center;
+    padding: 15px;
+}
+.sobremi_articulo img{
+    height: 400px;
+    width: 300px;
+    border: #632931 1px solid;
+}
+.sobremi_articulo img:hover{
+    transform: scale(1.10);
+    transition: all 0.7s;
+
+}
+.sobremi_galeria{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+
+.sobremi_galeria img{
+    border: 1px solid #632931;
+    width: 20%;
+    height: 10%;
+}
+.sobremi_galeria img:hover{
+    transform: scale(1.10);
+    transition: all 0.7s;
+
+}
