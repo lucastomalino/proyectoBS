@@ -6,6 +6,11 @@
     font-family: 'Tenor Sans', sans-serif;
 }
 
+*::selection{
+    color: #fbebe3;
+    background-color: #632931;
+}
+
 .navbar{
     height: 20%;
     background-color: #fbebe3;
