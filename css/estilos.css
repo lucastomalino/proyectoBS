@@ -43,7 +43,7 @@
           align-items: center;
 }
 
-#nav-link {
+#nav-link, #nav-link-sobremi, #nav-link-productos, #nav-link-tratamientos, #nav-link-contacto {
   margin: 5px;
   padding: 10px 10px;
   background-color: #f7dcce;
@@ -52,10 +52,31 @@
   text-align: center;
 }
 
-#nav-link:hover {
+#nav-link-sobremi:hover {
   -webkit-transition: ease 0.6s;
   transition: ease 0.6s;
-  background-color: #632931;
+  background-color: brown;
+  color: #fbebe3;
+}
+
+#nav-link-productos:hover {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  background-color: darkred;
+  color: #fbebe3;
+}
+
+#nav-link-tratamientos:hover {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  background-color: #3b0202;
+  color: #fbebe3;
+}
+
+#nav-link-contacto:hover {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  background-color: #8e0028;
   color: #fbebe3;
 }
 
@@ -134,9 +155,24 @@
           align-items: center;
 }
 
-.footer-right i {
+.btn--email {
+  color: #C25E30;
   font-size: 50px;
-  color: #632931;
+}
+
+.btn--facebook {
+  color: #3a5795;
+  font-size: 50px;
+}
+
+.btn--whatsapp {
+  color: #075307;
+  font-size: 50px;
+}
+
+.btn--instagram {
+  color: #55acee;
+  font-size: 50px;
 }
 
 .footer-right i:hover {
@@ -250,14 +286,14 @@
   padding: 5px;
 }
 
-.imagen_tabla {
+.imagen_prod {
   width: 60%;
   margin: 5px;
   border: #632931 2px solid;
   border-radius: 20px;
 }
 
-.imagen_tabla:hover {
+.imagen_prod:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: all 0.3s;

@@ -46,11 +46,45 @@ $colorClaro:#fbebe3;
     text-align: center;
 }
 
-#nav-link:hover{
-    transition: ease 0.6s;
-    background-color: $colorOscuro;
-    color:$colorClaro;
+#nav-link-sobremi{
+    @extend #nav-link;
 }
+#nav-link-sobremi:hover{
+    transition: ease 0.6s;
+    background-color: brown;
+    color: $colorClaro;
+}
+#nav-link-productos{
+    @extend #nav-link;
+}
+#nav-link-productos:hover{
+    transition: ease 0.6s;
+    background-color: darkred;
+    color: $colorClaro;
+}
+#nav-link-tratamientos{
+    @extend #nav-link;
+}
+#nav-link-tratamientos:hover{
+    transition: ease 0.6s;
+    background-color: rgb(59, 2, 2);
+    color: $colorClaro;
+}
+#nav-link-contacto{
+    @extend #nav-link;
+}
+#nav-link-contacto:hover{
+    transition: ease 0.6s;
+    background-color: #8e0028;
+    color: $colorClaro;
+}
+
+
+// #nav-link:hover{
+//     transition: ease 0.6s;
+//     background-color: $colorOscuro;
+//     color:$colorClaro;
+// }
 
 .carousel img{
     width: 100%;
@@ -106,12 +140,22 @@ padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    i{
-        font-size: 50px;
-        color: $colorOscuro;
-    }
 }
 
+$redes:(
+    email: #C25E30,
+    facebook:  #3a5795,
+    whatsapp: rgb(7, 83, 7),
+    instagram: #55acee 
+        
+);
+
+@each $red, $color in $redes{
+    .btn--#{$red}{
+        color: $color;
+        font-size: 50px;
+    }
+}
 .footer-right i:hover{
     transform: scale(1.20);
     transition: all 0.7s;
@@ -199,14 +243,17 @@ padding: 10px;
         padding: 5px;
 }
 
-.imagen_tabla{
+@mixin imagen_tabla{
     width: 60%;
-    
     margin: 5px;
     border: $colorOscuro 2px solid;
     border-radius: 20px;
 }
-.imagen_tabla:hover{
+
+.imagen_prod{
+    @include imagen_tabla;
+}
+.imagen_prod:hover{
     transform: scale(1.05);
     transition: all 0.3s;
 }
