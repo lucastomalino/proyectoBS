@@ -1,0 +1,16 @@
+Cambios realizados:
+
+Agregue varios extends para los links y modificar el hover de cada uno. 
+Agregue un map para las redes sociales y modificar el color de cada uno.
+Agregue un mixin en la seccion productos para las imagenes.
+
+Agregue las siguientes keywords en las secciones inicio y sobre mi:
+"sol mora, cosmetologia, estetica, limpieza cutis, acne, antiage, extracciones, tratamiento facial"
+en la seccion productos agregue las mismas keywords más la keyword "productos".
+
+Luego agregue la siguiente descripcion en el index:
+"Centro cosmetológico y distruibuidor de productos idraet, liderma, entre otros. Tratamientos faciales (limpieza de cutis, extracciones, etc.)"
+En las demás secciones no veo necesario agregar descripción.
+
+Los titulos y encabezados ya son adecuados a mi parecer.
+ 
