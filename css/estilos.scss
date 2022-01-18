@@ -51,7 +51,7 @@ $colorClaro:#fbebe3;
 }
 #nav-link-sobremi:hover{
     transition: ease 0.6s;
-    background-color: brown;
+    background-color: $colorOscuro;
     color: $colorClaro;
 }
 #nav-link-productos{
@@ -59,7 +59,7 @@ $colorClaro:#fbebe3;
 }
 #nav-link-productos:hover{
     transition: ease 0.6s;
-    background-color: darkred;
+    background-color: $colorOscuro;
     color: $colorClaro;
 }
 #nav-link-tratamientos{
@@ -67,7 +67,7 @@ $colorClaro:#fbebe3;
 }
 #nav-link-tratamientos:hover{
     transition: ease 0.6s;
-    background-color: rgb(59, 2, 2);
+    background-color: $colorOscuro;
     color: $colorClaro;
 }
 #nav-link-contacto{
@@ -75,16 +75,10 @@ $colorClaro:#fbebe3;
 }
 #nav-link-contacto:hover{
     transition: ease 0.6s;
-    background-color: #8e0028;
+    background-color: $colorOscuro;
     color: $colorClaro;
 }
 
-
-// #nav-link:hover{
-//     transition: ease 0.6s;
-//     background-color: $colorOscuro;
-//     color:$colorClaro;
-// }
 
 .carousel img{
     width: 100%;
@@ -143,10 +137,10 @@ padding: 10px;
 }
 
 $redes:(
-    email: #C25E30,
-    facebook:  #3a5795,
-    whatsapp: rgb(7, 83, 7),
-    instagram: rgb(253, 125, 147) 
+    email: $colorOscuro,
+    facebook:  $colorOscuro,
+    whatsapp: $colorOscuro,
+    instagram: $colorOscuro
         
 );
 
@@ -256,4 +250,48 @@ $redes:(
 .imagen_prod:hover{
     transform: scale(1.05);
     transition: all 0.3s;
+}
+
+// tratamientos
+.trat_titulo{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: $colorOscuro;
+    padding: 5px;
+    background-color: $colorClaro;
+    margin: 0;
+    border-bottom: #632931 2px solid;
+}
+
+@for $i from 1 through 10{
+    .tratamientos#{$i}{
+        h3{
+            text-align: center;
+            padding: 10px;
+            background-color: $colorOscuro;
+            color: $colorClaro;
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .contenedor_trat{
+            text-align: center;
+            background-color: #fbebe3;
+            padding: 20px;
+            letter-spacing: 20px;
+        }
+
+        .imagen_trat{
+            width: 700px;
+            height: 300px;
+            border: #632931 2px solid;
+        }
+
+        .imagen_trat:hover{
+            transition: ease 0.6s;
+            transform: scale(1.05);
+        }
+        
+    }
 }
