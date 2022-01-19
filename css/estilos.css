@@ -7,6 +7,10 @@
   font-family: 'Tenor Sans', sans-serif;
 }
 
+.container-fluid {
+  margin: 0;
+}
+
 *::-moz-selection {
   color: #fbebe3;
   background-color: #632931;
@@ -86,7 +90,7 @@
 }
 
 .articulo {
-  background-color: beige;
+  background-color: #fbebe3;
 }
 
 .articulo h3 {
@@ -327,6 +331,10 @@
   letter-spacing: 20px;
 }
 
+.tratamientos1 .cont_img_trat {
+  margin-top: 7px;
+}
+
 .tratamientos1 .imagen_trat {
   width: 40vw;
   height: 40vh;
@@ -354,6 +362,10 @@
   background-color: #fbebe3;
   padding: 20px;
   letter-spacing: 20px;
+}
+
+.tratamientos2 .cont_img_trat {
+  margin-top: 7px;
 }
 
 .tratamientos2 .imagen_trat {
@@ -385,6 +397,10 @@
   letter-spacing: 20px;
 }
 
+.tratamientos3 .cont_img_trat {
+  margin-top: 7px;
+}
+
 .tratamientos3 .imagen_trat {
   width: 40vw;
   height: 40vh;
@@ -412,6 +428,10 @@
   background-color: #fbebe3;
   padding: 20px;
   letter-spacing: 20px;
+}
+
+.tratamientos4 .cont_img_trat {
+  margin-top: 7px;
 }
 
 .tratamientos4 .imagen_trat {
@@ -443,6 +463,10 @@
   letter-spacing: 20px;
 }
 
+.tratamientos5 .cont_img_trat {
+  margin-top: 7px;
+}
+
 .tratamientos5 .imagen_trat {
   width: 40vw;
   height: 40vh;
@@ -470,6 +494,10 @@
   background-color: #fbebe3;
   padding: 20px;
   letter-spacing: 20px;
+}
+
+.tratamientos6 .cont_img_trat {
+  margin-top: 7px;
 }
 
 .tratamientos6 .imagen_trat {
@@ -501,6 +529,10 @@
   letter-spacing: 20px;
 }
 
+.tratamientos7 .cont_img_trat {
+  margin-top: 7px;
+}
+
 .tratamientos7 .imagen_trat {
   width: 40vw;
   height: 40vh;
@@ -528,6 +560,10 @@
   background-color: #fbebe3;
   padding: 20px;
   letter-spacing: 20px;
+}
+
+.tratamientos8 .cont_img_trat {
+  margin-top: 7px;
 }
 
 .tratamientos8 .imagen_trat {
@@ -559,6 +595,10 @@
   letter-spacing: 20px;
 }
 
+.tratamientos9 .cont_img_trat {
+  margin-top: 7px;
+}
+
 .tratamientos9 .imagen_trat {
   width: 40vw;
   height: 40vh;
@@ -586,6 +626,10 @@
   background-color: #fbebe3;
   padding: 20px;
   letter-spacing: 20px;
+}
+
+.tratamientos10 .cont_img_trat {
+  margin-top: 7px;
 }
 
 .tratamientos10 .imagen_trat {

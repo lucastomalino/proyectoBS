@@ -11,6 +11,11 @@ $colorClaro:#fbebe3;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Tenor Sans', sans-serif;
+    
+}
+
+.container-fluid{
+    margin: 0;
 }
 
 *::selection{
@@ -86,7 +91,7 @@ $colorClaro:#fbebe3;
 }
 
 .articulo{
-    background-color: beige;
+    background-color: $colorClaro;
     h3{
         padding: 10px;
         color: $colorOscuro;
@@ -280,6 +285,10 @@ $redes:(
             background-color: #fbebe3;
             padding: 20px;
             letter-spacing: 20px;
+        }
+
+        .cont_img_trat{
+            margin-top: 7px;
         }
 
         .imagen_trat{
