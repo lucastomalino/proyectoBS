@@ -169,6 +169,7 @@ $redes:(
     padding: 5px;
     background-color: $colorClaro;
     margin: 0;
+    text-decoration: underline;
 }
 
 .sobremi_articulo{
@@ -220,6 +221,7 @@ $redes:(
         padding: 5px;
         background-color: $colorClaro;
         margin: 0;
+        text-decoration: underline;
 }
 
 .contenedor{
@@ -267,6 +269,7 @@ $redes:(
     background-color: $colorClaro;
     margin: 0;
     border-bottom: #632931 2px solid;
+    text-decoration: underline;
 }
 
 @for $i from 1 through 10{
@@ -304,4 +307,113 @@ $redes:(
         }
         
     }
+}
+
+// contacto
+
+.main-cont{
+    h2{
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 3px;
+        color: $colorOscuro;
+        padding: 5px;
+        background-color: $colorClaro;
+        margin: 0;
+        text-decoration: underline;
+    }
+    p{
+        text-align: justify;
+        font-size: 20px;
+        padding: 10px;
+        background-color: $colorClaro;
+        color: $colorOscuro;
+        font-weight: bold;
+        margin: 0;
+    }
+
+}
+
+.formulario{
+    background-color: $colorClaro;
+    padding: 20px;
+
+    .form_datos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+
+    
+    
+    .form__nombre{
+
+        width: 80%;
+        padding: 20px;
+        height: 3vh;
+        margin: 10px;
+
+    }
+
+    .form__email{
+        width: 80%;
+        padding: 20px;
+        height: 3vh;
+        margin: 10px;
+        
+
+    }
+
+    .form__asunto{
+        width: 80%;
+        padding: 20px;
+        height: 3vh;
+        margin: 10px;
+
+    }
+
+    .form__texto{
+        width: 80%;
+        padding: 20px;
+        height: 15vh;
+        margin: 10px;
+
+    }
+
+    // .form_mapa{
+        
+    // }
+
+    .form__enviar{
+        width: 100px;
+        height: 50px;
+        color: $colorOscuro;
+        background-color: $colorClaro;
+        border: $colorOscuro 1px solid;
+       
+    }
+
+    .form__enviar:hover{
+        transition: ease 0.6s;
+        background-color: $colorOscuro;
+        color: $colorClaro;
+        
+    }
+    .form__borrar{
+        width: 100px;
+        height: 50px;
+        color: $colorOscuro;
+        background-color: $colorClaro;
+        border: $colorOscuro 1px solid;
+        
+        
+    }
+    .form__borrar:hover{
+        transition: ease 0.6s;
+        background-color: $colorOscuro;
+        color: $colorClaro;
+    }
+    }
+
 }

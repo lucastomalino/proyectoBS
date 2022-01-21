@@ -195,6 +195,7 @@
   padding: 5px;
   background-color: #fbebe3;
   margin: 0;
+  text-decoration: underline;
 }
 
 .sobremi_articulo {
@@ -258,6 +259,7 @@
   padding: 5px;
   background-color: #fbebe3;
   margin: 0;
+  text-decoration: underline;
 }
 
 .contenedor {
@@ -313,6 +315,7 @@
   background-color: #fbebe3;
   margin: 0;
   border-bottom: #632931 2px solid;
+  text-decoration: underline;
 }
 
 .tratamientos1 h3 {
@@ -643,5 +646,105 @@
   transition: ease 0.6s;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.main-cont h2 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #632931;
+  padding: 5px;
+  background-color: #fbebe3;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.main-cont p {
+  text-align: justify;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #fbebe3;
+  color: #632931;
+  font-weight: bold;
+  margin: 0;
+}
+
+.formulario {
+  background-color: #fbebe3;
+  padding: 20px;
+}
+
+.formulario .form_datos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario .form_datos .form__nombre {
+  width: 80%;
+  padding: 20px;
+  height: 3vh;
+  margin: 10px;
+}
+
+.formulario .form_datos .form__email {
+  width: 80%;
+  padding: 20px;
+  height: 3vh;
+  margin: 10px;
+}
+
+.formulario .form_datos .form__asunto {
+  width: 80%;
+  padding: 20px;
+  height: 3vh;
+  margin: 10px;
+}
+
+.formulario .form_datos .form__texto {
+  width: 80%;
+  padding: 20px;
+  height: 15vh;
+  margin: 10px;
+}
+
+.formulario .form_datos .form__enviar {
+  width: 100px;
+  height: 50px;
+  color: #632931;
+  background-color: #fbebe3;
+  border: #632931 1px solid;
+}
+
+.formulario .form_datos .form__enviar:hover {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  background-color: #632931;
+  color: #fbebe3;
+}
+
+.formulario .form_datos .form__borrar {
+  width: 100px;
+  height: 50px;
+  color: #632931;
+  background-color: #fbebe3;
+  border: #632931 1px solid;
+}
+
+.formulario .form_datos .form__borrar:hover {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  background-color: #632931;
+  color: #fbebe3;
 }
 /*# sourceMappingURL=estilos.css.map */
