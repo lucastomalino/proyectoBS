@@ -11,6 +11,7 @@ $colorClaro:#fbebe3;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Tenor Sans', sans-serif;
+    overflow-x: hidden;
     
 }
 
@@ -108,6 +109,8 @@ $colorClaro:#fbebe3;
     }
     iframe{
         padding: 10px;
+        width: 60%;
+        height: 30vh;
     }
 }
 
@@ -127,6 +130,7 @@ padding: 10px;
 }
 .footer-left{
     text-align: center;
+    overflow-y: hidden;
     img{
         height: 80%;
     }
@@ -162,6 +166,7 @@ $redes:(
 
 /* sobre mi */
 .sobremi_titulo{
+    width: 100vw;
     text-align: center;
     font-size: 40px;
     letter-spacing: 3px;
@@ -170,24 +175,31 @@ $redes:(
     background-color: $colorClaro;
     margin: 0;
     text-decoration: underline;
+    border-top: $colorOscuro 2px solid;
+    
 }
 
 .sobremi_articulo{
-    background-color: $colorClaro;
+    background-color: $colorClaro;  
+    
     p{
         color: $colorOscuro;
         padding: 40px;
         font-size: 20px;
         font-weight: bold;
+
+        
     }
     .fotoperfil{
         text-align: center;
         padding: 15px;
+        
     }
     img{
         height: 400px;
         width: 300px;
         border: $colorOscuro 1px solid;
+        
     }
 } 
 .sobremi_articulo img:hover{

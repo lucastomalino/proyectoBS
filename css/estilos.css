@@ -5,6 +5,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Tenor Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .container-fluid {
@@ -109,6 +110,8 @@
 
 .articulo iframe {
   padding: 10px;
+  width: 60%;
+  height: 30vh;
 }
 
 .n-right {
@@ -138,6 +141,7 @@
 
 .footer-left {
   text-align: center;
+  overflow-y: hidden;
 }
 
 .footer-left img {
@@ -188,6 +192,7 @@
 
 /* sobre mi */
 .sobremi_titulo {
+  width: 100vw;
   text-align: center;
   font-size: 40px;
   letter-spacing: 3px;
@@ -196,6 +201,7 @@
   background-color: #fbebe3;
   margin: 0;
   text-decoration: underline;
+  border-top: #632931 2px solid;
 }
 
 .sobremi_articulo {

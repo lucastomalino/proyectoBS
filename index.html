@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Centro cosmetológico y distruibuidor de productos idraet, liderma, entre otros. Tratamientos faciales (limpieza de cutis, extracciones, etc.) ">
+    <meta name="description" content="Centro cosmetológico y distribuidor de productos idraet, lidherma, entre otros. Tratamientos faciales (limpieza de cutis, extracciones, etc.) ">
     <meta name="keywords" content="sol mora, cosmetologia, estetica, limpieza cutis, acne, antiage, extracciones, tratamiento facial">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
@@ -29,7 +31,7 @@
         <div class="collapse navbar-collapse col-6" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" id="nav-link-sobremi" href="secciones/sobremi.html">Sobre Mí</a>
+              <a class="nav-link" id="nav-link-sobremi" href="#sobremi">Sobre Mí</a>
             </li>
             <li class="nav-item">
               <a class="nav-link"  id="nav-link-productos" href="secciones/productos.html">Productos</a>
@@ -83,8 +85,10 @@
 <div class="articulo">
     <div class="row">
         <div class="n-left col-xs-12 col-md-7">
-            <h3 class="text-center">SolMora Estética</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem blanditiis, a iste illo asperiores laborum quasi. Vitae rem quidem, ipsum dolores dolor eveniet. Labore sunt accusamus dolores ipsam iusto rem voluptas, esse itaque, voluptate mollitia rerum repellat eius! Rem non doloremque, facere, quidem blanditiis nam praesentium nostrum laboriosam illum rerum quae maxime vitae facilis dignissimos provident veritatis maiores esse nisi. Voluptate ducimus esse nihil tempore in, maiores expedita dolor temporibus labore ut praesentium quis consectetur commodi iusto sit. Sit cumque natus accusamus asperiores fugiat eaque officiis aut eligendi, ducimus, praesentium soluta nisi vel totam doloribus autem quam et harum debitis sed impedit animi molestiae cum quidem. Provident corporis iste, voluptas, reprehenderit iusto molestias consequatur animi quis itaque, incidunt nisi ad. Fugit nobis ad iusto nihil molestiae magni asperiores minus ut architecto culpa, inventore repellendus alias tempora numquam, eaque unde quod est animi repellat totam deserunt? Eos rem maiores sint.</p>
+            <h3 class="text-center">Sol Mora Cosmetología </h3>
+            <p>Sol Mora Cosmetologia es el espacio donde encontrarás un asesoramiento personalizado sobre tratamientos adecuados para tratar imperfecciones de todo tipo en tu rostro.
+              Además te enseñamos cómo y con qué productos realizar la rutina diaria tan importante para que tu piel luzca tal cual como querés. Te brindaremos el relax y ese tiempo que tanto necesitás.
+              </p>
         </div>
         <div class="n-right col-xs-12 col-md-5">
             <iframe src="https://www.youtube.com/embed/0-vFch9EHQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -92,6 +96,23 @@
     </div>
 </div>
 <!-- articulo - fin -->
+
+
+    <div class="sobremi_articulo container-fluid col-12">
+      <h2 class="sobremi_titulo col-12" id="sobremi">Marisol Moreira</h2>
+        <div class="row">
+        <p class="col-xs-12 col-md-7" data-aos="zoom-in" data-aos-duration="3000">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nulla beatae sit doloremque, exercitationem perspiciatis cupiditate veritatis, cum temporibus numquam voluptatum fuga iste. Debitis pariatur quos ab exercitationem, porro labore architecto cumque facilis provident? Ipsa voluptatem perferendis inventore laboriosam rerum. </p>
+        <div class="fotoperfil col-xs-12 col-md-5">
+            <img src="../img/estetica3.jpg" alt="fotoperfil" data-aos="zoom-in"> 
+        </div>
+    </div>
+    <div class="container-fluid sobremi_galeria col-12">
+        <img src="../img/estetica2.jpg" alt="estetica" data-aos="zoom-in" data-aos-duration="500" >
+        <img src="../img/estetica2.jpg" alt="estetica" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="../img/estetica2.jpg" alt="estetica" data-aos="zoom-in" data-aos-duration="1500">
+        <img src="../img/estetica2.jpg" alt="estetica" data-aos="zoom-in" data-aos-duration="2000">
+    </div>
+</div>
 <!-- footer - inicio -->
 <div class="container-fluid footer">
     <div class="footer-left col-6">
@@ -100,12 +121,18 @@
     </div>
     <div class="footer-right col-6">
         <i class="fas fa-envelope btn--email"></i>
-        <i class="fab fa-facebook-square btn--facebook"></i>
+       <a href="https://www.facebook.com/solmoracosmetology/"> <i class="fab fa-facebook-square btn--facebook"></i></a>
         <i class="fab fa-whatsapp-square btn--whatsapp"></i>
-        <i class="fab fa-instagram-square btn--instagram"></i>
+        <a href="https://www.instagram.com/solmoracosmetology/?hl=es-la"><i class="fab fa-instagram-square btn--instagram"></i></a>
     </div>
 </div>
 <!-- footer - fin -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
