@@ -11,17 +11,20 @@ $colorClaro:#fbebe3;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Tenor Sans', sans-serif;
-    overflow-x: hidden;
+    
     
 }
 
-.container-fluid{
-    margin: 0;
-}
+
+
 
 *::selection{
     color: $colorClaro;
     background-color: $colorOscuro;
+}
+
+.container-fluid{
+    margin: 0;
 }
 
 .navbar{
@@ -121,6 +124,7 @@ $colorClaro:#fbebe3;
 }
 
 .footer{
+    width: 100%;
     height: 20vh;
 background-color: $colorClaro;
 display: flex;

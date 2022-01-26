@@ -5,11 +5,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Tenor Sans', sans-serif;
-  overflow-x: hidden;
-}
-
-.container-fluid {
-  margin: 0;
 }
 
 *::-moz-selection {
@@ -20,6 +15,10 @@
 *::selection {
   color: #fbebe3;
   background-color: #632931;
+}
+
+.container-fluid {
+  margin: 0;
 }
 
 .navbar {
@@ -126,6 +125,7 @@
 }
 
 .footer {
+  width: 100%;
   height: 20vh;
   background-color: #fbebe3;
   display: -webkit-box;
