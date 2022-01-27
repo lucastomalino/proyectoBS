@@ -27,6 +27,11 @@ $colorClaro:#fbebe3;
     margin: 0;
 }
 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 .navbar{
     height: 20%;
     background-color: $colorClaro;
@@ -145,6 +150,7 @@ padding: 10px;
 
 .footer-right{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }

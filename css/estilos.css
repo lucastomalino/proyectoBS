@@ -21,6 +21,11 @@
   margin: 0;
 }
 
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .navbar {
   height: 20%;
   background-color: #fbebe3;
@@ -156,6 +161,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
