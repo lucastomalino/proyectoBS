@@ -216,7 +216,7 @@
 
 .sobremi_articulo p {
   color: #632931;
-  padding: 40px;
+  padding: 60px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -227,8 +227,7 @@
 }
 
 .sobremi_articulo img {
-  height: 400px;
-  width: 300px;
+  width: 70%;
   border: #632931 1px solid;
 }
 
