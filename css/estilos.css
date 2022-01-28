@@ -91,7 +91,9 @@
 
 .articulo {
   background-color: #fbebe3;
-  margin-left: 15px;
+}
+
+.articulo .row {
   margin-right: 15px;
 }
 
@@ -272,48 +274,65 @@
   text-decoration: underline;
 }
 
-.contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.card {
+  padding: 30px;
+  border: 0px;
   background-color: #fbebe3;
-  margin: 0;
 }
 
-.prod_subtitulo {
+.card .card-header {
   text-align: center;
+  background-color: #632931;
+  color: #fbebe3;
+}
+
+.card .card-body {
+  background-color: #fbebe3;
+  border-top: 0px;
+  border-left: 2px solid #632931;
+  border-right: 2px solid #632931;
+  text-align: center;
+}
+
+.card .card-body img {
+  width: 50%;
+}
+
+.card .card-footer {
+  background-color: #fbebe3;
+  border-top: 0px;
+  border-left: 2px solid #632931;
+  border-right: 2px solid #632931;
+  border-bottom: 2px solid #632931;
+  text-align: center;
+}
+
+.card .card-footer .btn {
+  border: 2px solid #632931;
+  background-color: #632931;
+  color: #fbebe3;
+}
+
+.card .card-footer .btn:hover {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  background-color: #fbebe3;
   color: #632931;
-  padding: 5px;
 }
 
-.columna {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 5px;
-}
-
-.imagen_prod {
-  width: 60%;
-  margin: 5px;
-  border: #632931 2px solid;
-  border-radius: 20px;
-}
-
-.imagen_prod:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+@media only screen and (min-width: 992px) {
+  .zine .card-header {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .zine .card-body {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .zine .card-footer {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 .trat_titulo {
